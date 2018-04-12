@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+#tttBoard {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+#tttTileContainer {
+    flex: 1 0 30%;
+    max-width: 30%;
+    height: 33%;
+    margin: 5px;
+    display: flex;
+}
+
+#tttTile {
+    flex: 0 0 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: grey;
+    padding: 0px;
+    height: 100%;
+}
+
+#marker {
+    width: 65%;
+}
